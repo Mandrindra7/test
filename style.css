@@ -1,0 +1,43 @@
+.table
+{
+    display: flex;
+}
+p
+{
+    font-size: 30px;
+    margin-top:0px;
+    
+}
+h1
+{
+    color: black;
+    margin-bottom:0px;
+    
+}
+figure
+{
+    border : 5px black solid;
+    box-shadow: 7px white;
+    display: inline-block;
+    margin-left: 0px
+}
+@font-face {
+    font-family: 'OpenSans-Bold-webfont';
+    src: url('OpenSans-Bold-webfont.eot') format('eot'),
+         url('OpenSans-Bold-webfont.woff') format('woff'),
+         url('OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('OpenSans-Bold-webfont.svg') format('svg');
+}
+h2
+{
+    border: 3px grey solid;
+    border-radius: 7px;
+    color: black;
+    background-color :#FFF;
+    width: 25%;
+    font-family: 'OpenSans-Bold-webfont', Arial, Helvetica, sans-serif
+}
+body
+{
+    background-image: url('overcame.jpg')
+}
